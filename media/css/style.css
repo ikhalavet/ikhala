@@ -24,11 +24,14 @@ a {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
-  color: white;
+  color: #FFFFFF;
 }
-a:hover,
-a:focus {
+a:hover {
   color: #445753;
+  text-decoration: none;
+}
+a:focus {
+  color: #FFFFFF;
   text-decoration: none;
 }
 h1,
@@ -146,6 +149,10 @@ aside {
   background-color: transparent;
 }
 
+.header-content-inner h1 {
+  margin-bottom: 30px;
+}
+  
 @media (min-width: 768px) {
   .navbar-default {
     background-color: transparent;
@@ -186,10 +193,6 @@ aside {
   .navbar-default.affix .nav > li > a:focus:hover {
     color: #445753;
   }
-
-  .header-content-inner h1 {
-    display: block;
-  }
 }
 header {
   position: relative;
@@ -213,12 +216,12 @@ header .header-content {
 header .header-content .header-content-inner hr {
   margin: 30px auto;
 }
-header .header-content .header-content-inner p {
+/* header .header-content .header-content-inner p {
   font-weight: 300;
   color: rgba(255, 255, 255, 0.7);
   font-size: 16px;
   margin-bottom: 10px;
-}
+} */
 @media (min-width: 768px) {
   header {
     min-height: 100%;
