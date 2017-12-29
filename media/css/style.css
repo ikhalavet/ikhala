@@ -198,12 +198,6 @@ header {
   position: relative;
   width: 100%;
   min-height: auto;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-  background-position: center;
-  background-image: url('../images/header.jpg');
   text-align: center;
   color: white;
 }
@@ -213,6 +207,42 @@ header .header-content {
   padding: 200px 15px 100px;
   width: 100%;
 }
+
+.image-cycle { 
+  position:absolute; 
+  height: 100%;
+  width:100%;
+ }
+
+.image-cycle div {
+    position:absolute;
+    height:100%;
+    width: 100%;
+    min-height: inherit;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+}
+
+.image-cycle .first {
+   background-image: url('../images/header-1.jpg');  
+}
+.image-cycle .second {
+   background-image: url('../images/header-2.jpg');  
+}
+.image-cycle .third {
+   background-image: url('../images/header-3.jpg');  
+}
+.image-cycle .fourth {
+   background-image: url('../images/header-4.jpg');  
+}
+.image-cycle .fifth {
+   background-image: url('../images/header-5.jpg');  
+}
+
+
 header .header-content .header-content-inner hr {
   margin: 30px auto;
 }

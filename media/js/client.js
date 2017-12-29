@@ -28,6 +28,14 @@
         }
     })
 
+    //Cycle images    
+    $('.image-cycle div:gt(0)').hide();
+    setInterval(function(){
+      $('.image-cycle :first-child').fadeOut(3000)
+         .next('div').fadeIn(3000)
+         .end().appendTo('.image-cycle');}, 
+      10000);
+
     // Initialize and Configure Scroll Reveal Animation
     window.sr = ScrollReveal();
     sr.reveal('.sr-icons', {
