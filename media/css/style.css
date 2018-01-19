@@ -46,8 +46,7 @@ h6 {
 
 p {
   font-size: 16px;
-  line-height: 1.5;
-  margin-bottom: 20px;
+/*   line-height: 1.5; */
 }
 
 .bg-primary {
@@ -97,7 +96,7 @@ p {
 }
 
 .physical-address {
-  margin:30px 0;
+  /* margin:30px 0; */
 }
 .physical-address p, i {
   margin-bottom: 5px;
