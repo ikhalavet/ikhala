@@ -28,6 +28,19 @@
         }
     })
 
+    // Show team profiles
+    $('.team-profile-expand').click(function() {
+        $(this).next().slideDown();
+        $(this).hide();
+    });
+
+    $('.team-profile-hide').click(function() {
+        $(this).parent().slideUp(400, 'swing', function() {
+            $(this).prev().fadeIn();        
+        });
+    });
+
+
     //Cycle images    
     $('.image-cycle div:gt(0)').hide();
     setInterval(function(){

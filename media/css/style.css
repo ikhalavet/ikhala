@@ -56,6 +56,10 @@ p {
   background-color: #222222;
   color: white;
 }
+.bg-secondary {
+  background-color: #9b9a7a;
+  color: #034959;
+}
 .bg-light {
   background-color: #FFFFFF;
   color: #054959;
@@ -156,7 +160,7 @@ aside {
 .header-content-inner h1 {
   margin-bottom: 30px;
 }
-  
+
 @media (min-width: 768px) {
   .navbar-default {
     background-color: transparent;
@@ -223,8 +227,8 @@ header .header-content {
 }
 
 
-.image-cycle { 
-  position:absolute; 
+.image-cycle {
+  position:absolute;
   height: 100%;
   width:100%;
   opacity: 0.4;
@@ -243,19 +247,19 @@ header .header-content {
 }
 
 .image-cycle .first {
-   background-image: url('../images/header-1.jpg');  
+   background-image: url('../images/header-1.jpg');
 }
 .image-cycle .second {
-   background-image: url('../images/header-2.jpg');  
+   background-image: url('../images/header-2.jpg');
 }
 .image-cycle .third {
-   background-image: url('../images/header-3.jpg');  
+   background-image: url('../images/header-3.jpg');
 }
 .image-cycle .fourth {
-   background-image: url('../images/header-4.jpg');  
+   background-image: url('../images/header-4.jpg');
 }
 .image-cycle .fifth {
-   background-image: url('../images/header-5.jpg');  
+   background-image: url('../images/header-5.jpg');
 }
 
 
@@ -520,6 +524,9 @@ body {
   webkit-tap-highlight-color: #222222;
 }
 
+.opening-hours {
+  margin: 10px 0 20px 0;
+}
 .google-maps {
   position: relative;
   padding-bottom: 75%; // This is the aspect ratio
@@ -534,4 +541,14 @@ body {
   right: 10%;
   width: 80% !important;
   height: 80% !important;
+}
+
+.team-profile {
+  margin-bottom: 20px;
+}
+
+.team-profile-expand, .team-profile-hide  {
+   cursor:pointer;
+   max-width:200px;
+   margin:auto;
 }
