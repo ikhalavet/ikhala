@@ -31,7 +31,6 @@
     // Show team profiles
     $('.team-profile-expand').click(function() {
         $(this).next().slideDown();
-        $(this).hide();
     });
 
     $('.team-profile-hide').click(function() {

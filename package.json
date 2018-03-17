@@ -4,21 +4,16 @@
   "description": "Veterinary Clinic",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./node_modules/watch-http-server/bin/http-server"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/pacomendes/ikhala.git"
   },
-  "keywords": [
-  ],
+  "keywords": [],
   "author": "luca",
   "license": "ISC",
   "dependencies": {
-    "watch-http-server" : "0.7.6"
-  },
-  "scripts": {
-    "start": "node ./node_modules/watch-http-server/bin/http-server"
+    "watch-http-server": "0.7.6"
   }
 }
-
